@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mathias Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Mathias</a>
+            <a class="active">KOM</a>
+            <a href="flap/flappy.html">Flappy Bird</a>
+            <a href="full.html">Fullstack</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="informatik">
+            <div class="element left">
+                <h2>Lectio Discord Bot</h2>
+
+                <!-- Note-knap start -->
+                <button class="accordion">Indledning</button>
+                <div class="panel">
+                <p>
+                    Discord er et gratis medie til chats, man kan både bruge tekst chat og tale chat. På discord kan man lave en server, inde på en server, kan man have flere forskellige chats med forskellige navne både tekst og tale. Discord har udviklet et åbent API, som kan bruges inde på discord servere, derinde kan man lave noget der hedder en bot, en bot er enlig bare en bruger som er i chatten, men i stedet for at det er en person som skriver, så bliver den styret af enten et Python script eller af et JavaScript script. Det er meget smart at det køre på 2 af de største programmeringssprog, da man kan tilslutte det til mange systemer. Dette kan bruges til at man foreksempelt. kan få en meddelelse, for hver gang at der er en som tweeter noget på twitter, eller at man hver dag kan få en meddelelse om hvordan ens kalender ser ud med de næste aftaler eller andre ting man har på sin kalender. 
+                    Vi har valgt at skulle lave en Discord bot, som kan sættes sammen med Lectio, nede i Assess fasen, så ville vi gå nærmere på hvilke features, som denne bot skulle have.                    
+                </p>
+                </div>
+                <!-- Note-knap slut-->
+
+                <button class="accordion">Assess fasen</button>
+                <div class="panel">
+                <p>Assess fasen er den fase hvor vi finder et problem eller en ide som vi kunne få folk interesseret i at bruge, vi tænkte selv at vi ofte glemte at kigge på vores Lectio og derfor altid lavede opgaverne i sidste sekund, derefter tænkte vi, “Hmm hvor skal denne “Bot” give os besked hende” derefter tænkte vi at alle vi kendte bruger platformen discord. Discord er en platform som alle fra klasse benytter sig af jævnligt. Efter vi kom på vores ide til et produkt, så interviewede vi klassekammerater om hvad de synes den “bot” skulle kunne gøre. Inden vi startede med at interviewe vores klassekammerater, synes vi at de skulle høre vores ide først. Vi syntes den skulle kunne give en heads up, hvis nu der var en dag tilbage, inden en aflevering af en opgave, og også hvis der var timer aflyst fra morgenstunden. alle de personer vi interviewede, havde den ide, at botten også kunne sende “Public announcements” ud. altså når skolens rektor eller lærere sender en besked ud til Gruppen Slotshaven Alle 2021-22 så ville botten opfange det, og derefter sende den samme besked ud på Discord.</p>
+                </div>
+
+                <button class="accordion">Design fasen</button>
+                <div class="panel">
+                <p>I Designfasen fandt vi ud af, at vi kunne bruge discohook.org for at kunne lave en embed besked, nedenfor kan man se et par eksempler på hvordan vi vil lave vores “Public announcement”, aflyst time og lektier. Vores beskeder tænkte vi kunne se sådan ud, vores farvevalg har vi tænkt over da “Public Announcement” har fået blå, da blå er en “Social” farve, på den måde, at man associerer blå med social kontakt, Twitter, Facebook og Messenger bruger alle sammen brug af den blå farve af denne grund.
+                    Vi har brugt farven rød til vores Lektion aflyst, da farven ofte er sammen med STOP, eller der er sket noget, og rød er også en farve, som ens øje nemt opsamler i mængden. Farven rød bruges af denne grund også til trafikskilte, og er nok mest kendt fra stop skiltet.
+                    Vi har brugt farven grøn til vores “Lektier om en uge!” dette har vi gjort af den simple grund at grøn er en glad farve, og ovenpå den ikke så gode besked med at man skal til at lave lektier så synes vi at man burde få en glad farve så man kunne associere lektier med noget godt, og så synes vi også selv at det motiverer en at blive glad.
+                    Sidst men ikke mindst, har vi brugt farven “sort” til vores “Lektier om en dag!” fordi, at sort kan godt være en “Dommedags farve”, i den forstand at det hænger sammen med døden og med ikke så glade tanker. Sort en af de mest seriøse farver der er, hvis man har lektier til om en dag, synes vi det er meget vigtigt at få dem lavet.
+                    
+                    De steder hvor vi har sat parentes ind vil vi indsætte noget, og dette skal ikke direkte med i beskeden.
+                    </p>
+                </div>
+
+                <button class="accordion">Build fasen</button>
+                <div class="panel">
+                <p>Vi brugte meget tid, på at finde ud af om der var et åbent API system til Lectio. vi fandt ud af at, på grund af Lectios databeskyttelsesregler, så må de ikke have et åbent API, da man ville kunne have haft misbrugt deres API. Derfor ledte vi på GitHub og Reddit, for at se om der var nogle som havde web scrappet Lectio, men det eneste vi fandt, var noget gammelt kode og noget kode som vi ikke ville kunne bruge til vores projekt. Vi fandt ud af, at man måske stadig havde mulighed for, at lave vores ide, men dette ville kræve, at man skulle have en computer eller en server som refresher Lectios hjemmeside hele tiden, ud fra dette skulle den så når den ser et nyt modul komme op eller et modul blive aflyst, sende en besked med at der er en af timerne som er blevet ændret.</p>
+                </div>
+                
+                <button class="accordion">Konklusion</button>
+                <div class="panel">
+                <p>Vi har lært meget om hvordan spiralmodellen fungere. Vi lærte at det er meget vigtigt når man skal bygge noget, at man først brainstorme sine ideer, derefter laver man nogle få antagelser af om, hvad sit færdige produkt skal kunne og hvordan det skal se ud. Når man har lavet sine egne antagelser, så skal man lave nogle interviews eller spørgeskemaer, hvor man kontakter de personer som produktet skal være til, om deres holdninger af hvordan produktet skal være. Da vi var i assess fasen, så fik vi noget kritik og nogle ideer af brugerne til vores produkt. I designfasen lærte vi at man skal lave nogle små prototyper af sine designs, man laver dette fordi, at man skal bruge det til når man kommer til build fasen. I build fasen skal man lave en prototype af sit produkt, det gør man ud fra hvilke, kritik og ideer man fik fra assess fasen, og fra hvilke designs man har lavet i designfasen. 
+                    Til sidst i vores konklusion ville vi gerne, komme med en bedømmelse af vores produkt. vi synes at det var en meget god ide, men vi fik ikke lavet et ordentligt produkt fordi, at der som sagt tidligere, at vi ikke havde adgang til de ressourcer som vi havde brug for. Selvom vi ikke fik bygget en god prototype, så synes vi stadig, at det har været en god ide, vi ville derfor give vores projekt ide 9 ud af 10 point og vores produkt en solid 4 ud af 10, da vi fik botten til at svare på nogle beskeder men ikke til at hente data ned fra Lectio.
+                    Til næste gang, skulle vi nok have undersøgt, om det var muligt at indhente data fra de steder man skal bruge til at udføre vores projekt.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="element left">
+                <h2>Billeder til discord lectio bot</h2>
+                <button class="accordion">Public Announcement”</button>
+                <div class="panel">
+                    <img id="profile-picture" src="images/pa.png">
+                </div>
+
+                <button class="accordion">Lektion aflyst</button>
+                <div class="panel">
+                    <img id="profile-picture" src="images/la.png">
+                </div>
+
+                <button class="accordion">Lektier om en uge</button>
+                <div class="panel">
+                    <img id="profile-picture" src="images/loeu.png">
+                </div>
+
+                <button class="accordion">Lektier om en uge</button>
+                <div class="panel">
+                    <img id="profile-picture" src="images/loeu.png">
+                </div>
+
+                <button class="accordion">Lektier om en dag</button>
+                <div class="panel">
+                    <img id="profile-picture" src="images/loed.png">
+                </div>
+                
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

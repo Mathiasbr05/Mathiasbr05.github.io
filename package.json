@@ -1,0 +1,30 @@
+{
+  "name": "fullstackdemo",
+  "version": "1.0.0",
+  "description": "This is a worked example for the IT-subjects in highschool, which shows how to implement a simple fullstack application. It uses HTML and Javascript for the frontend. The backend consists of a NodeJS server with ExpressJS, which connects to a local MongoDB database. This example is relevant for teaching concepts such as:",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongodb": "^3.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siinch/fullstackdemo.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siinch/fullstackdemo/issues"
+  },
+  "homepage": "https://github.com/siinch/fullstackdemo#readme",
+  "keywords": [
+    "idk"
+  ]
+}

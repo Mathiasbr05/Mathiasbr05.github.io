@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fullstack Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Top navigation bar-->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Mathias</a>
+            <a href="kom.html">KOM</a>
+            <a href="flap/flappy.html">Flappy Bird</a>
+            <a class="active">Fullstack</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Buttons -->
+        <div class="knapper">
+
+        <h1>Fullstack Demo</h1>
+        <h2>Highscores</h2>
+        <button onclick="getHighscore()">Get Specific Highscore</button>
+        <button onclick="getHighscores()">Get All Highscores</button>
+        <button onclick="insertHighscore()">Insert Highscore</button>
+        <button onclick="deleteHighscore()">Delete Highscore</button>
+        <button onclick="updateHighscore()">Update Highscore</button>
+        <br>
+        <h2>Login & Signup</h2>
+        <button onclick="signUp()">Sign Up</button>
+        <button onclick="logIn()">Log In</button>
+        <button onclick="deleteUser()">Delete User</button>
+        <br>
+        <h2>Coinscores</h2>
+        <button onclick="insertCoinscore()">Insert Coinscore</button>
+
+        </div>
+
+
+
+        <script src="/app.js"></script>
+    </body>
+</html>
